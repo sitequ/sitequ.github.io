@@ -1,0 +1,48 @@
+/* here, set all the words in the form of paragraph to brown color */
+/* pay attention to the structure of the instruction*/
+p, li {
+    color:rgb(21, 8, 8);
+    /* width: 500px; */
+    /* border: 1px solid black; */
+    font-size: 25px;
+    /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+h1 {
+    color:rgb(20, 13, 7);
+    /* width: 500px; */
+    font-size: 55px;
+    text-align: center;
+
+    margin: 0;
+    padding: 20px 0;
+    /* color: #00539F; */
+    text-shadow: 3px 3px 12px rgb(130, 125, 125);
+    /*水平偏移，垂直偏移，模糊半径，颜色*/
+}
+
+html {
+    /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 20px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Montserrat', sans-serif;
+    /* 更该页面颜色 */
+    background-color: #edf0e4;
+  }
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #ffcc66;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width:600px;
+    height:450px
+  }
